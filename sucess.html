@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Form Submission Success</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    
+    h1 {
+      color: #32CD32;
+    }
+    
+    p {
+      margin-bottom: 20px;
+    }
+    
+    .btn {
+      padding: 10px 20px;
+      background-color: #32CD32;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    
+    .btn:hover {
+      background-color: #228B22;
+    }
+  </style>
+</head>
+<body>
+  <h1>Form Submitted Successfully!</h1>
+  <p>Thank you for submitting the form. Your information has been successfully received.</p>
+  
+  <!-- Add any additional content or instructions here -->
+  
+  <button class="btn" onclick="returnToForm()">Return to Form</button>
+  
+  <script>
+    function returnToForm() {
+      window.location.href = "form01.html"; 
+    }
+  </script>
+</body>
+</html>
