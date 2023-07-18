@@ -1,14 +1,7 @@
-function logout() {
-  var confirmLogout = confirm("Are you sure you want to logout?");
-  if (confirmLogout) {
-      
-  }
 
-
-
-}
-
-
+    document.getElementById("log").onclick = function(){
+      window.location = "logout.html";
+    }
 
 document.getElementById("form").addEventListener("submit", function(event) {
   event.preventDefault();
@@ -45,7 +38,7 @@ if (vendorName === "") {
 
 var h1bVendor = document.getElementById("H1B").value;
 if (h1bVendor === "") {
-  document.getElementById("errorMessage3").innerHTML = "Please  for H1B vendor";
+  document.getElementById("errorMessage3").innerHTML = "Please enter H1B vendor";
   document.getElementById("H1B").focus(); 
   return;
 } else {
