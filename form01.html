@@ -14,7 +14,7 @@
         <div class="nav01">
         <a href="Home">Home</a>
         <a href="#Candidate">Candidate</a>
-        <button  type="reset" >LOGOUT</button>
+        <button  type="reset" id="log" >LOGOUT</button>
     </div>
       </div>
     </nav>
@@ -29,17 +29,17 @@
             <div>
             <label >Candidate Email ID(Pored in IRMT)</label>
            :&nbsp;&nbsp;<input type="email" class="in" id="email" name="email" placeholder="Enter Your IRMT email address">
-           <span id="errorMessage"></span>
+           <br><span id="errorMessage"></span>
            <br>
             <br>
             <label>Project Start Date</label>
             :&nbsp;&nbsp;<input type="date" class="jb" id="startdate" name="startdate" placeholder="dd-mm-yyyy">
-            <span id="errorMessage1"></span>
+            <br><span id="errorMessage1"></span>
             <br>
             <br>
             <label>Vy Vendor Name</label>
             :&nbsp;&nbsp;<input type="text" class="in" id="name" name="name" placeholder="Enter Vy Vendor Name">
-            <span id="errorMessage2"></span>
+            <br><span id="errorMessage2"></span>
             <br>
             <br>
             <label>Are they H1B vendor</label>
@@ -48,12 +48,12 @@
                 <option value="select an option">amazon</option>
                 <option value="select an option">cisco</option>
             </select>
-            <span id="errorMessage3"></span>
+            <br><span id="errorMessage3"></span>
         </div>
             <div class="side">
             <label>Candidate Name(pored in IRMT)</label>
             :&nbsp;&nbsp;<input type="text" class="in" id="c name" name="candidate name" placeholder="Enter Your IRMT Name">
-            <span id="errorMessage4"></span>
+            <br><span id="errorMessage4"></span>
             <br>
             <br>
             <label>Client Name</label>
@@ -62,7 +62,7 @@
                 <option value="select an option">james</option>
                 <option value="select an option">ranjit</option>
             </select>
-            <span id="errorMessage5"></span>
+            <br><span id="errorMessage5"></span>
             <br>
             <br>
             <label>Country</label>
@@ -332,7 +332,7 @@
                     <option value="WF" label="Wallis and Futuna">Wallis and Futuna</option>
                 </optgroup>
             </select>
-            <span id="errorMessage6"></span>
+            <br><span id="errorMessage6"></span>
             <br>
         </div>
     </div>            
@@ -344,16 +344,17 @@
             <div>
                 <label>1-9 Form Upload</label>
                 :&nbsp;&nbsp;<input type="file"  class="file1" id="file-input" >
-                <span id="errorMessage7"></span>
+                
+                <br><span id="errorMessage7"></span>
                 <br><br>
                 <label>exhibit-b-vendor name/h1b filled proper</label>
                 :&nbsp;&nbsp;<input type="file"  class="file1" id="file-input" >
-                <span id="errorMessage8"></span> 
+                <br><span id="errorMessage8"></span> 
             </div>
              <div class="side">
                 <label>1-9 Expiry</label>
              :&nbsp;&nbsp;<input type="date" class="jb" id="expirydate" name="expirydate" placeholder="dd-mm-yyyy">
-             <span id="errorMessage9"></span>
+             <br><span id="errorMessage9"></span>
              <br>
              </div>
             </div>
@@ -366,16 +367,16 @@
                 <div>
             <label>MSA Upload</label>
             :&nbsp;&nbsp;<input type="file"  class="file1" id="file-input" >
-            <span id="errorMessage10"></span>
+            <br><span id="errorMessage10"></span>
             <br><br>
             <label>Exhibit-A/PO Upload</label>
             :&nbsp;&nbsp;<input type="file"  class="file1" id="file-input" >
-            <span id="errorMessage11"></span>
+            <br><span id="errorMessage11"></span>
          </div>
             <div  class="side">
                 <label>MSA sigened date</label>
              :&nbsp;&nbsp;<input type="date" class="jb" id="sigeneddate" name="sigened" placeholder="dd-mm-yyyy">
-             <span id="errorMessage12"></span>
+             <br><span id="errorMessage12"></span>
              <br>
              </div>
             </div>
@@ -388,17 +389,17 @@
                 <div>
             <label>W9 Upload</label>
             :&nbsp;&nbsp;<input type="file"  class="file1" id="file-input" >
-            <span id="errorMessage13"></span>
+            <br><span id="errorMessage13"></span>
             <br><br>
             <label>ACH-Upload</label>
             :&nbsp;&nbsp;<input type="file"  class="file1" id="file-input" >
-            <span id="errorMessage14"></span>
+            <br><span id="errorMessage14"></span>
             <br>
            </div>
             <div class="side">
                 <label>VOID Check Upload</label>
             :&nbsp;&nbsp;<input type="file"  class="file1" id="file-input" >
-            <span id="errorMessage15"></span>
+            <br><span id="errorMessage15"></span>
             <br><br>
             <label>All Data Filled in ACh?With Out blank lines</label>
             :&nbsp;&nbsp;<select id = "ACH" class="jj"value="ACH" name="ACH">
@@ -406,7 +407,7 @@
              <option value="select an option">no</option>
              <option value="select an option">yes</option>        
                </select>
-               <span id="errorMessage16"></span>
+               <br><span id="errorMessage16"></span>
                <br>
             </div>
         </div>
@@ -419,23 +420,23 @@
             <div>
                 <label>Visa Type Document Upload</label>
             :&nbsp;&nbsp;<input type="file"  class="file1" id="file-input" >
-            <span id="errorMessage17"></span>
+            <br><span id="errorMessage17"></span>
             <br><br>
             <label>Visa Form Date</label>
             :&nbsp;&nbsp;<input type="date" class="jb" id="sigeneddate" name="sigened" placeholder="dd-mm-yyyy">
-            <span id="errorMessage18"></span>
+            <br><span id="errorMessage18"></span>
             <br>
             </div>
             
             <div class="side">
                 <label>Visa Company/this has to be crosed verified with the aboveH1B Company</label>
             :&nbsp;&nbsp;<input type="text" class="in" id="vc name" name="vc name" placeholder="Enter Visa Company Name">
-            <span id="errorMessage19"></span>
+            <br><span id="errorMessage19"></span>
             <br>
             <br><br>
             <label>Visa Expiry/End Date</label>
             :&nbsp;&nbsp;<input type="date" class="jb" id="expiryDate" name="Expiry_Date"  >
-            <span id="errorMessage20"></span>
+            <br><span id="errorMessage20"></span>
             <br>
             </div>
         </div>
@@ -447,24 +448,25 @@
             <div class="certi">
                 <div>
                     <label>Certificate  of Insurance Upload</label>
-                    :&nbsp;&nbsp;<input type="file"  class="file1" id="file-input" >
-                    <span id="errorMessage21"></span>
+                    :&nbsp;&nbsp;<input type="file"  class="file1" id="file-input">
+                    <label id="file-label"></label>
+                    <br><span id="errorMessage21"></span>
                     <br><br>
                     <label>Contact info Sheet Upload</label>
                     :&nbsp;&nbsp;<input type="file"  class="file1" id="file-input" >
-                    <span id="errorMessage22"></span>
+                    <br><span id="errorMessage22"></span>
                     <br>
                 </div>
                 
                <div class="side">
                 <label>COI Expiry least</label>
                 :&nbsp;&nbsp;<input type="date" class="jb" id="expiryDate" name="Expiry_Date"  >
-                <span id="errorMessage23"></span>
+                <br><span id="errorMessage23"></span>
                 <br>
                 <br><br>
                 <label>Type of insurance-Nearing Expiry</label>
                 :&nbsp;&nbsp;<input type="text" class="bb" id="Nearing_Expiry" name="Nearing Expiry">
-                <span id="errorMessage24"></span>
+                <br><span id="errorMessage24"></span>
                 <br>
                </div>
             </div>
@@ -478,12 +480,12 @@
            <div class="bb1">
             <label>Countersigned From Vy to Vendor-Upload</label>
             :&nbsp;&nbsp; <input type="file"  class="file1" id="file-input"  >
-            <span id="errorMessage25"></span>
+            <br><span id="errorMessage25"></span>
             <br><br>
             
-                <label style="position: absolute;">Remark/What's pending/Why correct status</label>
-            &nbsp;<textarea style="resize: none;" class="bb" id="Remark" name="Remark"></textarea>
-            <span id="errorMessage26"></span>
+                <label>Remark/What's pending/Why correct status</label>
+            :&nbsp;&nbsp;<input type="text" class="bb" id="Remark" name="Remark">
+            <br><span id="errorMessage26"></span>
             <br>
            </div>
            
