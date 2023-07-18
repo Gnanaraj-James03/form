@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Logout Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .container {
+      text-align: center;
+      margin-top: 200px;
+      color: #fff;
+    }
+    
+    h2 {
+      color: #fff;
+      font-size: 36px;
+      margin-bottom: 20px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    
+    #logoutBtn {
+      padding: 10px 20px;
+      background-color: #f44336;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+      border-radius: 4px;
+      transition: background-color 0.3s ease;
+    }
+    
+    #logoutBtn:hover {
+      background-color: #5c0023;
+    }
+    
+    
+    body {
+      background: linear-gradient(to bottom, #7fb1da, #0099aa);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="background-overlay"></div>
+    <h2>Logout Page</h2>
+    <button id="logoutBtn">Logout</button>
+  </div>
+
+  <script>
+    document.getElementById('logoutBtn').addEventListener('click', function() {
+      
+      alert('You have been logged out!');
+      
+      window.location.href = 'form01.html';
+    });
+  </script>
+</body>
+</html>
